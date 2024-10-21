@@ -1,0 +1,64 @@
+/* Google Fonts */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #0b3d91;
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffcc00;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    font-size: 0.9em;
+    color: #ddd;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    padding: 10px;
+    margin-top: 20px;
+}
